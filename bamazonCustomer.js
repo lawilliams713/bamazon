@@ -76,7 +76,7 @@ function askproduct(){
                 ],
                 function(error) {
                   if (error) throw err;
-                  console.log("great we will send the package soon!");
+                  console.log("Great we will send the package soon!");
                   start();
                 }
               );
